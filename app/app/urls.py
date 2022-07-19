@@ -31,6 +31,7 @@ urlpatterns = [
         name='api-docs',
     ),
     # user 
-    path('api/user/', include('user.urls'))
-    
+    path('api/user/', include('user.urls')),
+    # recipe
+    path('api/recipe/', include('recipe.urls')),
 ]

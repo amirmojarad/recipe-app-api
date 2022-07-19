@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # recipe-api apps
     'core',
     'user',
+    'recipe',
     
     # third party apps
     'rest_framework',
